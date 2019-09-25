@@ -79,7 +79,7 @@ public class Themes extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.QDEAD;
+        return MetricsProto.MetricsEvent.BICPR;
     }
 }
 

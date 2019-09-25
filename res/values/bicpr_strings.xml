@@ -75,6 +75,10 @@
     <string name="show_network_traffic_down">Download</string>
     <string name="show_network_traffic_all">Both</string>
     <string name="nettraf_font_size">Single net font size</string>
+    <string name="themes_color">Theming</string>
+    <string name="themes_summary">Theming section</string>
+    <string name="accent_color">Accent picker</string>
+    <string name="accent_summary">System wide accent maker</string>
 
     <!-- Additional stuff -->
     <string name="dialog_color_picker">Color Picker</string>
