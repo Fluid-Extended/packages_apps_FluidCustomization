@@ -42,7 +42,7 @@
         settings:min="0"
         settings:units="" />
 
-        <com.bicpr.picker.preferences.SystemSettingSwitchPreference
+        <com.bicpr.picker.preference.SystemSettingSwitchPreference
             android:key="network_traffic_arrow"
             android:title="@string/network_traffic_arrow"
             android:summary="@string/network_traffic_arrow_summary"
@@ -56,7 +56,7 @@
             android:defaultValue="0"
             android:persistent="false" />
 
-       <com.bicpr.picker.preferences.CustomSeekBarPreference
+       <com.bicpr.picker.preference.CustomSeekBarPreference
             android:key="network_traffic_font_size"
             android:title="@string/nettraf_font_size"
             android:max="60"
