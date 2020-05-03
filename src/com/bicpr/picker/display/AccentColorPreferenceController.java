@@ -65,6 +65,9 @@ public class AccentColorPreferenceController extends AbstractPreferenceControlle
             mAccentColor.setSummary(hexColor);
         }
         mAccentColor.setNewPreviewColor(intColor);
+        if (hexColor.equals("#ff72bbff"))
+            mAccentColor.setCustomColorPreview(mContext.getResources()
+                    .getColor(R.color.evolution_icon_tint_color));
     }
 
     @Override
