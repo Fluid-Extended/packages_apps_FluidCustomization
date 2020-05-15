@@ -19,7 +19,11 @@
     <!-- App Title -->
     <string name="picker_settings_title">The Picker</string>
 
-    <!-- Customization titles -->
+    <!-- Customization section titles -->
     <string name="statusbar_title">StatusBar</string>
     <string name="quicksettings_title">Quick Settings</string>
+
+   <!-- Customization titles -->
+    <string name="brightness_slider_qs_unexpanded">MIUI-like location brightness slider</string>
+    <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel (un-miui-ified)</string>
 </resources>
