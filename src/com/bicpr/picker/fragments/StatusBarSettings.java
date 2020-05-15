@@ -43,14 +43,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.titanium_settings_statusbar);
+        addPreferencesFromResource(R.xml.picker_settings_statusbar);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.QDEAD;
+        return MetricsProto.MetricsEvent.BICPR;
     }
 
     @Override
