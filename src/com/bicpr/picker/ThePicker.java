@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.bicpr.picker.ThePicker;
+package com.bicpr.picker;
 
 import com.android.internal.logging.nano.MetricsProto;
 

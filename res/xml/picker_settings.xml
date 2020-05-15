@@ -20,10 +20,18 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/picker_settings_title" >
 
-        <Preference
+        <PreferenceScreen
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
-            android:fragment="com.titanium.settings.fragments.StatusBarSettings"
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:fragment="com.bicpr.picker.fragments.StatusBarSettings"
+            android:layout="@layout/preference_statusbarsettings"/>
+
+        <!-- Quick Settings -->
+        <PreferenceScreen
+            android:id="@+id/quick_settings"
+            android:title="@string/quicksettings_title"
+            android:fragment="com.bicpr.picker.QuickSettings"
+            android:layout="@layout/preference_picker_quicksettings"
+            />
 
 </PreferenceScreen>
