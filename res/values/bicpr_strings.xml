@@ -26,4 +26,6 @@
    <!-- Customization titles -->
     <string name="brightness_slider_qs_unexpanded">MIUI-like location brightness slider</string>
     <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel (un-miui-ified)</string>
+    <string name="enable_clear_all_button">Replace clear all text with nice button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
 </resources>
