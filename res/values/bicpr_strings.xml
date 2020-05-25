@@ -28,4 +28,6 @@
     <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel (un-miui-ified)</string>
     <string name="enable_clear_all_button">Replace clear all text with nice button</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <string name="qs_bg_use_new_tint">Tint QS with accent</string>
+    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background (needs systemui restart)</string>
 </resources>
