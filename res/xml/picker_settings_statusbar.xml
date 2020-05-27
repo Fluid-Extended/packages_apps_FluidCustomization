@@ -25,11 +25,15 @@
         android:summary="@string/clock_style_category_summary"
         android:fragment="com.bicpr.picker.ClockSettings" />
 
-    <com.bicpr.picker.preference.SystemSettingSwitchPreference
-        android:key="network_traffic_state"
-        android:title="@string/network_traffic_state_title"
-        android:summary="@string/network_traffic_state_summary"
-        android:defaultValue="true" />
+    <PreferenceCategory
+        android:title="@string/network_traffic_state_title">
+        <ListPreference
+            android:key="network_traffic_location"
+            android:title="@string/network_traffic_location"
+            android:summary="%s"
+            android:entries="@array/network_traffic_location_entries"
+            android:entryValues="@array/network_traffic_location_values"
+            android:persistent="false" />
 
     <com.bicpr.picker.preference.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
@@ -38,11 +42,10 @@
         settings:min="0"
         settings:units="" />
 
-    <com.bicpr.picker.preference.SystemSettingSwitchPreference
-        android:key="network_traffic_hidearrow"
-        android:title="@string/network_traffic_hidearrow"
-        android:summary="@string/network_traffic_hidearrow_summary"
-        android:dependency="network_traffic_state"
-        android:defaultValue="false" />
-
+        <com.bicpr.picker.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_arrow"
+            android:title="@string/network_traffic_arrow"
+            android:summary="@string/network_traffic_arrow_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
