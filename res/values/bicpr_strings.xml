@@ -23,6 +23,11 @@
     <string name="statusbar_title">Statusbar</string>
     <string name="quicksettings_title">Quick Settings</string>
 
+    <!-- Customization section summaries -->
+    <string name="statusbar_summary">All kinds of stuff releated to statusbar</string>
+    <string name="quicksettings_summary">Brightness, tint and other stuff you didnt ask for</string>
+    <string name="themess_summary">Paint your phone in all kinds of colors, because thats what you do</string>
+
    <!-- Customization titles -->
     <string name="brightness_slider_qs_unexpanded">MIUI-like location brightness slider</string>
     <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel (un-miui-ified)</string>

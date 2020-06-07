@@ -24,6 +24,7 @@
         <PreferenceScreen
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
+            android:summary="@string/statusbar_summary"
             android:fragment="com.bicpr.picker.fragments.StatusBarSettings"
             android:layout="@layout/preference_statusbarsettings"/>
 
@@ -31,6 +32,7 @@
         <PreferenceScreen
             android:id="@+id/quick_settings"
             android:title="@string/quicksettings_title"
+            android:summary="@string/quicksettings_summary"
             android:fragment="com.bicpr.picker.QuickSettings"
             android:layout="@layout/preference_picker_quicksettings"
             />
@@ -39,6 +41,7 @@
 	<PreferenceScreen
 	    android:key="settings_themes" 
 	    android:title="@string/themes_color"
+            android:summary="@string/themess_summary"
 	    android:fragment="com.bicpr.picker.Themes"
             android:layout="@layout/preference_picker_themes" />
 
