@@ -79,6 +79,8 @@
     <string name="themes_summary">Theming section</string>
     <string name="accent_color">Accent picker</string>
     <string name="accent_summary">System wide accent maker</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
 
     <!-- Additional stuff -->
     <string name="dialog_color_picker">Color Picker</string>
