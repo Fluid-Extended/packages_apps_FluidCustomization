@@ -20,6 +20,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/picker_settings_title" >
 
+        <!-- Statusbar Settings -->
         <PreferenceScreen
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
@@ -35,5 +36,12 @@
             android:fragment="com.bicpr.picker.QuickSettings"
             android:layout="@layout/preference_picker_quicksettings"
             />
+
+        <!-- Themes -->
+        <PreferenceScreen
+            android:id="@+id/themes_settings"
+            android:title="@string/themes_title"
+            android:fragment="com.bicpr.picker.ThemeSettings"
+            android:layout="@layout/preference_themes" />
 
 </PreferenceScreen>

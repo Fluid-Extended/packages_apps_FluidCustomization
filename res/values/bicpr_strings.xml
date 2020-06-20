@@ -107,4 +107,8 @@
     <string name="general">General</string>
 
 
+    <!-- Customization titles -->
+     <string name="themes_title">Themes</string>
+    <string name="theme_ui">UI</string>
+
 </resources>
