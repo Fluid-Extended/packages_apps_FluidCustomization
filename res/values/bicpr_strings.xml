@@ -106,9 +106,9 @@
     <string name="statusbar_items_summary">Toggle the visibility of icons in statusbar</string>
     <string name="general">General</string>
 
-
     <!-- Customization titles -->
-     <string name="themes_title">Themes</string>
+    <string name="themes_title">Themes</string>
     <string name="theme_ui">UI</string>
+    <string name="theme_customization_sysui_icon_title">Statusbar icon</string>
 
 </resources>
