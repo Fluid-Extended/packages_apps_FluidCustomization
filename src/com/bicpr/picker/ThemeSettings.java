@@ -38,6 +38,8 @@ import com.android.settings.R;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.bicpr.picker.etc.CustomOverlayPreferenceController;
+
 @SearchIndexable
 public class ThemeSettings extends DashboardFragment implements Indexable  {
     private static final String TAG = "Themes";
@@ -71,6 +73,8 @@ public class ThemeSettings extends DashboardFragment implements Indexable  {
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.font"));
         controllers.add(new AccentColorPreferenceController(context));
+        controllers.add(new CustomOverlayPreferenceController(context,
+                "android.theme.customization.custom_overlays"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.adaptive_icon_shape"));
         controllers.add(new OverlayCategoryPreferenceController(context,

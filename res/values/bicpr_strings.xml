@@ -112,5 +112,6 @@
     <string name="theme_customization_sysui_icon_title">Statusbar icon</string>
     <string name="default_string">Default</string>
     <string name="themes_base">Base</string>
+    <string name="theme_customization_systemui_title">System Primary Theme</string>
 
 </resources>
