@@ -110,5 +110,6 @@
     <string name="themes_title">Themes</string>
     <string name="theme_ui">UI</string>
     <string name="theme_customization_sysui_icon_title">Statusbar icon</string>
+    <string name="default_string">Default</string>
 
 </resources>
