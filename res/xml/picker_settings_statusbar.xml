@@ -19,7 +19,42 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:title="@string/general">
+
 	<Preference
+            android:title="@string/statusbar_items_title"
+            android:summary="@string/statusbar_items_summary"
+            android:icon="@drawable/ic_settings_tuner" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+        </Preference>
+
+
+         <com.bicpr.picker.preference.SystemSettingSwitchPreference
+             android:key="show_fourg_icon"
+             android:title="@string/show_fourg_icon_title"
+             android:summary="@string/show_fourg_icon_summary"
+             android:defaultValue="false"/>
+
+
+         <com.bicpr.picker.preference.SystemSettingSwitchPreference
+             android:key="volte_icon"
+             android:title="@string/volte_icon_title"
+             android:summary="@string/volte_icon_summary"
+             android:defaultValue="true"/>
+
+        <com.bicpr.picker.preference.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+
+    <Preference
 	android:key="clock_settings"
         android:title="@string/clock_style_category_title"
         android:summary="@string/clock_style_category_summary"
