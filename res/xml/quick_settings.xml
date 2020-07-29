@@ -16,6 +16,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quicksettings_title" >
 
+    <PreferenceCategory
+        android:title="@string/brightness_summary">
+
         <com.bicpr.picker.preference.SystemSettingSwitchPreference
             android:key="brightness_slider_qs_unexpanded"
             android:title="@string/brightness_slider_qs_unexpanded"
@@ -28,6 +31,12 @@
             android:summary="@string/qs_brightness_position_bottom_summary"
             android:defaultValue="false" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/ui_summary">
+
+
         <com.bicpr.picker.preference.SystemSettingSwitchPreference
             android:key="dismiss_all_button"
             android:title="@string/enable_clear_all_button"
@@ -39,5 +48,14 @@
             android:title="@string/qs_bg_use_new_tint"
             android:summary="@string/qs_bg_use_new_tint_summary"
             android:defaultValue="true" />
+
+        <Preference
+            android:key="category_custom_header"
+            android:title="@string/statusbar_header_category_title"
+            android:summary="@string/statusbar_header_category_summary"
+            android:fragment="com.bicpr.picker.fragments.StatusbarHeader" />
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>
