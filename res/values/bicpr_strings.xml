@@ -25,8 +25,8 @@
 
     <!-- Customization section summaries -->
     <string name="statusbar_summary">All kinds of stuff related to statusbar</string>
-    <string name="quicksettings_summary">Brightness, tint and other stuff you didn/'nt ask for</string>
-    <string name="themess_summary">Paint your phone in all kinds of colors, because that/'s what you do</string>
+    <string name="quicksettings_summary">Brightness, tint and other stuff you didn\'nt ask for</string>
+    <string name="themess_summary">Paint your phone in all kinds of colors, because that\'s what you do</string>
     <string name="brightness_summary">Brightness</string>
     <string name="ui_summary">User Interface</string>
 
